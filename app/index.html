@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Parallax Example</title>
+
+    <!-- build:css styles/vendor.css -->
+    <link rel="stylesheet" type="text/css" href="../bower_components/normalize-css/normalize.css">
+    
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    
+  </head>
+
+  <body>
+     <div class="img-container" data-image="https://download.unsplash.com/photo-1428604467652-115d9d71a7f1" data-width="1600" data-height="900" data-extra-height="50"></div>
+
+    <section class="content-stage">
+      <div class="content">
+        <h1>Er Mer Gerd! Parallax.</h1>
+      </div>
+    </section>
+
+    <div class="img-container" data-image="https://download.unsplash.com/photo-1428591501234-1ffcb0d6871f" data-cover-ratio="0.75" data-width="1680" data-height="1050"></div>
+
+    <section class="content-stage">
+      <div class="content">
+        <h1>Isn't this the coolest?</h1>
+      </div>
+    </section>
+
+    <div class="img-container" data-image="https://download.unsplash.com/photo-1427348693976-99e4aca06bb9" data-cover-ratio="0.75" data-width="1680" data-height="1050"></div>
+
+    <section class="content-stage alternate-bg">
+      <div class="content">
+        <h1>Yay.</h1>
+      </div>
+    </section>
+
+    <div class="img-container" data-image="https://download.unsplash.com/photo-1428342319217-5fdaf6d7898e" data-cover-ratio="0.75" data-width="1680" data-height="1050"></div>
+
+
+
+    
+
+    <!-- build:js scripts/main.js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/Parallax-ImageScroll/jquery.imageScroll.js"></script>
+    <script src="../bower_components/waypoints/lib/jquery.waypoints.js"></script>
+    <script src="../bower_components/waypoints/lib/shortcuts/sticky.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

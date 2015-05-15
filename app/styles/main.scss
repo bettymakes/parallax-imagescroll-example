@@ -1,0 +1,71 @@
+/*****************************************************************************
+  example-parallax
+******************************************************************************/
+
+
+@import '../../bower_components/bourbon/dist/_bourbon.scss';
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+
+
+// Variables
+$color-primary: #2ECC71;
+$color-secondary: #446CB3;
+
+/*****************************************************************************
+  Base Styles
+******************************************************************************/
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+}
+
+
+/*****************************************************************************
+  Layout Styles
+******************************************************************************/
+
+
+
+
+/*****************************************************************************
+  Module Styles
+******************************************************************************/
+.content-stage {
+  width: 100%;
+  height: 75%;
+  display: table;
+  background-color: $color-primary;
+  
+  &.alternate-bg {
+    background-color: $color-secondary;
+  }
+}
+
+
+.content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.stuck {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background: black;
+  padding: 25px 0;
+}
+
+
